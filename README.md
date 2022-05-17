@@ -32,3 +32,5 @@ Links:
 https://visualvm.github.io/index.html
 
 https://www.jetbrains.com/help/idea/analyze-hprof-memory-snapshots.html
+
+https://www.baeldung.com/java-heap-dump-capture
