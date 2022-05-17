@@ -2,7 +2,10 @@
 
 Code example for Async Java Profiler or JFR.
 
-* Use the following IntelliJ Profiler (Settings/Preferences | Build, Execution, Deployment | Java Profiler Java Profiler):
+* Java Profiler
+
+Use the following IntelliJ Profiler (Settings/Preferences | Build, Execution, Deployment | Java Profiler Java Profiler):
+
 ```
 event=cpu,alloc,interval=10us,jfrsync=profile
 ```
@@ -13,7 +16,9 @@ https://www.jetbrains.com/help/idea/async-profiler.html
 
 https://github.com/jvm-profiling-tools/async-profiler
 
-* You could also create a heap dump and open it with help of Intellij Idea or Visual VM.
+* Java heap dump
+
+You could also create a heap dump and open it with help of Intellij Idea or Visual VM.
 
 ```
 jcmd 1 GC.heap_dump ./dump.hprof
